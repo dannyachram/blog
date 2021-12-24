@@ -18,3 +18,20 @@
     border-radius: 0;
     margin-bottom: -1px;
 }
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card img {
+    margin: auto;
+    margin-bottom: 20px;
+}
