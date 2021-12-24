@@ -28,6 +28,10 @@
     background-color: rgb(48, 2, 2);
 }
 
+.col-md-4 {
+    margin-top: 40px;
+}
+
 h1,
 h3 {
     text-align: center;
