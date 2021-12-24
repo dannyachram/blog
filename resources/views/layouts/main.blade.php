@@ -14,7 +14,7 @@
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>WEB APP | {{ $title }}</title>
+    <title>MY PERSONAL BLOG | {{ $title }}</title>
   </head>
   <body>
 
