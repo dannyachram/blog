@@ -5,7 +5,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/">Home</a>
           </li>
@@ -20,7 +20,7 @@
           </li>
         </ul>
 
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav">
             @auth
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,7 +39,7 @@
             </li>
             @else
             <li class="nav-item">
-              <a href="/login" class="nav-link {{ Request::is('login') ? 'active' : ''}}"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+              <a href="/login" class="nav-link fw-bold {{ Request::is('login') ? 'active' : ''}}"><i class="bi bi-box-arrow-in-right"></i> Login</a>
             </li>
             @endauth
           </ul>

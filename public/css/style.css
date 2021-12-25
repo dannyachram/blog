@@ -22,15 +22,34 @@
 .navbar {
     background-color: rgb(48, 2, 2) !important;
     text-transform: uppercase;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
 }
 
 .btn {
     background-color: rgb(48, 2, 2);
+    border: 1px solid rgb(102, 2, 2);
+}
+
+.btn:hover {
+    background-color: rgb(102, 2, 2);
+    border: 1px solid rgb(102, 2, 2);
 }
 
 .col-md-4 {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+span.page-link {
+    background-color: rgb(102, 2, 2) !important;
 }
 
 h1,
