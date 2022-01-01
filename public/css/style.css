@@ -26,7 +26,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 .navbar-brand {
@@ -50,6 +50,10 @@
 
 span.page-link {
     background-color: rgb(102, 2, 2) !important;
+}
+
+.pagination {
+    border: 1px solid rgb(239 239 239);
 }
 
 h1,
